@@ -2,6 +2,8 @@
 
 How I cleaned up my Realme GT 6 (RMX3851, Android 16 / Realme UI 7) over a USB cable with Claude Code: bloat removed, battery drainers blocked, and a security check. No root needed.
 
+**You can do the same on any Android phone.** Turn on USB debugging, plug the phone into a computer with [adb](https://developer.android.com/tools/releases/platform-tools) and Claude Code, and ask: *"analyse my phone, debloat it and remove power-draining apps."* Review the list it suggests before agreeing. The app names will differ by brand, but the steps and checks below are the same.
+
 ![Results](results.png)
 
 ## Results

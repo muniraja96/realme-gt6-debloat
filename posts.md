@@ -6,14 +6,16 @@ Image for both: `results.png`.
 
 ## LinkedIn
 
-My phone's battery wasn't keeping up with my day, and it ran hot sometimes.
+Your phone is probably running dozens of apps you never asked for.
 
-A Realme GT 6. Ad feeds, Facebook apps I never installed, and apps quietly waking it up in the background.
+Ad feeds, pre-installed Facebook apps, trackers, and apps that keep waking the phone in the background, all eating your battery.
 
-So I plugged it into my laptop, opened Claude Code, and asked in plain English: "analyse my phone, debloat it and remove power-draining apps."
+You can clean this up yourself. No root, no tech skills. Just a USB cable, your laptop and Claude Code.
 
-What it did:
-→ Read the battery stats and found the real culprits. MyJio and Threads alone had woken the phone over 1,100 times since the last restart
+Plug the phone in and ask in plain English: "analyse my phone, debloat it and remove power-draining apps."
+
+It works on any Android phone. Here's what it did on my Realme GT 6:
+→ Read the battery stats and found the real culprits. Two apps had woken my phone over 1,100 times since the last restart
 → Removed 53 apps: ad feeds, Facebook stubs, trackers, duplicates I'd forgotten about
 → Blocked 5 apps from running in the background. They still work when I open them
 → Ran a security check: no spyware, no hidden admin apps, mic only used while apps were on screen
@@ -23,16 +25,14 @@ The result after one day:
 🔋 Screen-on time per charge: 5h 44m → 7h 17m
 📵 Background wake-ups from those two apps: 0
 
-What I liked most: it asked before every change, kept an undo script, and gave honest numbers. When a first 2-hour reading looked worse, it went back to the full-day data instead of claiming a win.
+The best part: it asked before every change, kept an undo script, and gave honest numbers. When a first 2-hour reading looked worse, it went back to the full-day data instead of claiming a win.
 
-It wasn't perfect. Two apps I actually use went too, and I reinstalled them from the Play Store in a minute.
+One tip: check its list before saying yes. Two apps I actually use went too, and I had to reinstall them from the Play Store.
 
-No root. No new phone. One evening.
-
-Everything I changed, with undo steps:
+Everything I changed, the security checks and the undo script:
 👉 https://github.com/muniraja96/realme-gt6-debloat
 
-Last week it was my TV. This week my phone. What should I let it fix next?
+Try it on your phone and tell me how many apps you got rid of.
 
 #AI #ClaudeCode #Android #Productivity
 
@@ -40,15 +40,15 @@ Last week it was my TV. This week my phone. What should I let it fix next?
 
 ## X
 
-My phone's battery was dying fast.
+Your Android phone is full of apps quietly draining the battery.
 
-Plugged it into my laptop and gave Claude Code one prompt. It:
-• found apps waking my phone 1,100+ times
-• removed 53 bloat apps
-• blocked 5 background drainers
-• ran a security check (clean)
+Plug it into your laptop, give Claude Code one prompt, and it will:
+• find what's waking your phone
+• remove the bloat
+• block background drainers
+• run a security check
 
-Screen-on time per charge: 5h 44m → 7h 17m 🔋
+My Realme GT 6: 53 apps gone, screen-on time 5h 44m → 7h 17m 🔋
 
 No root. Undo script included.
 
