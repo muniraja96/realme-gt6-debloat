@@ -1,6 +1,6 @@
 # Posts
 
-Image for both: `results.png`.
+Images: `results.png` for LinkedIn, `x-post.png` for X.
 
 ---
 
